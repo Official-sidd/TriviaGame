@@ -1,12 +1,33 @@
-# React + Vite
+# 🧠 Trivia Game – React Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a **simple and interactive trivia quiz game** built using **React**. The game presents users with **randomly selected multiple-choice questions**, keeps track of their score, and even stores **high scores using IndexedDB** so that top scores persist between sessions.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
 
-## Expanding the ESLint configuration
+- 🔀 **Randomized Questions**: Each game loads 5 random questions from a JSON file.
+- ✅ **Multiple-Choice Format**: Players select from four options per question.
+- ⏱️ **Score Tracking**: Earn points for correct answers and see your final score at the end.
+- 🏆 **High Score Leaderboard**: Stores top scores using the browser's IndexedDB.
+- 🔁 **Replayable**: Players can restart and get a new set of questions every time.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🚀 Getting Started
+
+Follow these steps to set up and run the Trivia Game project on your local machine.
+
+### 📦 Prerequisites
+
+- **Node.js** and **npm** installed  
+  👉 [Download Node.js](https://nodejs.org/)
+
+---
+
+### 🔧 Installation
+
+ **Clone the repository**
+   ```bash
+   git clone https://github.com/your-username/trivia-game.git
+   cd trivia-game
